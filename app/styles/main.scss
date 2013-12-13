@@ -1,4 +1,4 @@
-$bodytext: #4D4D4D;
+$bodytext: #333333;
 $grey: #D9D9D9;
 $lightgrey: #F7F7F7;
 $purple: #FA4B88;
@@ -120,21 +120,59 @@ section, footer {
 .stuck {
 
 }
-.menu li {
-	display: inline-block;
-	padding: 16px 25px 0 0;
+.menu {
+
 }
-.menu li.active a {
+.menu > li {
+	display: inline-block;
+	position: relative;
+	margin: 0;
+}
+.menu > li.active a {
 	color: $blue;
 }
-.menu li a,
-.menu li a:hover {
+.menu > li a {
+	display: inline-block;
+	padding: 12px 13px 8px;
+	position: relative;
+	z-index: 1;
+}
+.menu > li a,
+.menu > li a:hover {
 	color: $bodytext;
 	text-decoration: none;
 	font-size: 16px;
 }
-.menu li a:hover {
+.menu > li a:hover {
 	color: $blue;
+}
+.menu > li:hover .submenu {
+	display: block;
+}
+.submenu {
+	display: none;
+	position: absolute;
+	z-index: 0;
+	left: -7px;
+	width: auto;
+	min-width: 100%;
+	padding: 0 0 15px 0;
+	background: #fff;
+	text-align: center;
+	border: 1px $grey solid;
+	border-top: 0;
+	text-align: left;
+}
+.submenu li {
+	margin: 0;
+}
+.submenu li a {
+	display: block;
+	padding: 5px 20px;
+	white-space: nowrap;
+}
+.menu > li:last-child .submenu {
+	left: -70px;
 }
 .logo-holder {
 	background: #fff;
@@ -456,9 +494,4 @@ ul.big-padding {
 /* Footer */
 footer p {
 	margin: 0;
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-    
 }

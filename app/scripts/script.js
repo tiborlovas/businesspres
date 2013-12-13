@@ -1,7 +1,8 @@
 $(function(){
 	/* Parallax job */
-	$.stellar({
-		horizontalScrolling: false
+	$('body').stellar({
+		horizontalScrolling: false,
+		verticalOffset: 0
 	});
 	
 	/* Retina images swap */
@@ -45,16 +46,7 @@ $(function(){
 	  });
 	});
 */
-	
-	/* Docs nav highlighting */
-/*
-	$('section')
-	.waypoint(function(direction) {
-		var $links = $('a[href="#' + this.id + '"]');
-		$links.parent().toggleClass('active', direction === 'down');
-	});
-*/
-	
+
 });
 
 /* Hero autoresize needs to be made by javascript to avoid blink caused by jquery load latency */
