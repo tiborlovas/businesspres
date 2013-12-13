@@ -34,7 +34,7 @@ h1 {
 	font-size: 28px;
 }
 .huge {
-	font-size: 40px;
+	font-size: 19px;
 }
 h2 {
 	font-size: 25px;
@@ -51,7 +51,7 @@ h3 {
 .subtitle {
 	font-weight: 300;
 	line-height: 24px;
-	font-size: 20px;
+	font-size: 14px;
 }
 p {
 	margin-bottom: 30px;
@@ -67,7 +67,7 @@ b {
 	font-weight: 400;
 }
 hr {
-	background: #D9D9D9;
+	background: $grey;
 	margin: 0;
 	border: 0;
 	height: 1px;
@@ -76,22 +76,21 @@ hr {
 /* Common */
 .container {
 	max-width: 1000px;
-	padding: 0;
 }
 section, footer {
-	padding-top: 130px;
-	padding-bottom: 130px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 .hero {
 	position: relative;
-	background-position: center bottom;
+	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	padding: 180px 0;
+	padding: 100px 0;
 }
 .topbar {
 	background: #fff;
-	padding: 15px 30px;
+	padding: 15px;
 	width: 100%;
 	border-bottom: 1px #D9D9D9 solid;
 }
@@ -100,22 +99,20 @@ section, footer {
 	z-index: 1000;
 	top: 0;
 	width: 100%;
-/*
-	-webkit-transition: opacity 0.3s ease;
-	-moz-transition: opacity 0.3s ease;
-	-o-transition: opacity 0.3s ease;
-	transition: opacity 0.3s ease;
-*/
+}
+.onlydesktop {
+	display: none!important;
+}
+.icon-menu-mobile {
+	display: inline-block;
+	width: 20px;
+	height: 15px;
+	background: url(../images/assets/MenuIconMobile.png) center center no-repeat;
+	margin-top: 3px;
 }
 .invisible {
 	visibility: visible;
 	opacity: 0;
-/*
-	-webkit-transition: opacity 0.1s ease;
-	-moz-transition: opacity 0.1s ease;
-	-o-transition: opacity 0.1s ease;
-	transition: opacity 0.1s ease;
-*/
 }
 .stuck {
 
@@ -133,7 +130,7 @@ section, footer {
 }
 .menu > li a {
 	display: inline-block;
-	padding: 12px 13px 8px;
+	padding: 8px 13px 8px;
 	position: relative;
 	z-index: 1;
 }
@@ -183,6 +180,14 @@ section, footer {
 }
 .logo-holder h2 {
 	margin-bottom: 0;
+}
+.separation-lines {
+	display: none;
+}
+.separation-math {
+	font-size: 56px;
+	color: $green;
+	margin: 40px 0;
 }
 .btn {
 	display: inline-block;
@@ -353,19 +358,19 @@ ul.big-padding {
 	margin-bottom: 0!important;
 }
 .minispace {
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 .smallspace {
-	margin-bottom: 30px;
+	margin-bottom: 13px;
 }
 .midspace {
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 }
 .bigspace {
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 .hugespace {
-	margin-bottom: 130px;
+	margin-bottom: 100px;
 }
 .greybg {
 	background-color: $lightgrey;
@@ -394,14 +399,23 @@ ul.big-padding {
 	max-width: 1000px;
 	margin: auto;
 }
+.logo {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo img {
+	width: 100%;
+}
 .main .herobox {
 	border-top: 1px rgba(255,255,255,.2) solid;
 	border-bottom: 1px rgba(255,255,255,.2) solid;
-	padding-top: 25px;
+	padding-top: 13px;
 }
 .main h1,
 .main h2 {
 	text-transform: uppercase;
+	white-space: nowrap;
 }
 .main .container {
 	color: #fff;

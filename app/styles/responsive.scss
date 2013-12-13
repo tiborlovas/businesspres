@@ -1,0 +1,85 @@
+/* Small devices (mobiles, 480px and up) */
+@media (min-width: 480px) {
+
+	
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	
+	/* General */
+	section, footer {
+		padding-top: 130px;
+		padding-bottom: 130px;
+	}
+	h2 {
+		margin-bottom: 100px;
+	}
+	
+	/* Common */
+	.container {
+		padding: 0;
+	}
+	.onlymobile {
+		display: none!important;
+	}
+	.onlydesktop {
+		display: inline-block!important;
+	}
+/*
+	.sticky-element {
+		display: block;
+	}
+	.sticky-element-menu {
+		display: none;
+	}
+*/
+	.hero {
+		padding: 180px 0;
+	}
+	.logo {
+		width: 313px;
+	}
+	.huge {
+		font-size: 40px;
+	}
+	.subtitle {
+		font-size: 20px;
+	}
+	.main .herobox {
+		padding-top: 25px;
+	}
+	.minispace {
+		margin-bottom: 10px;
+	}
+	.smallspace {
+		margin-bottom: 30px;
+	}
+	.midspace {
+		margin-bottom: 60px;
+	}
+	.bigspace {
+		margin-bottom: 100px;
+	}
+	.hugespace {
+		margin-bottom: 130px;
+	}
+	.separation-lines {
+		display: block;
+	}
+	.separation-math {
+		display: none;
+	}
+	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+}
