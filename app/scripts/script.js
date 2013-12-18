@@ -5,11 +5,11 @@ $(function(){
 		verticalOffset: 0
 	});
 	
-	/* Retina images swap */
+	/* Retina images add dimensions then swap */
 	var retina = window.devicePixelRatio > 1;
 	if (retina) {
 	    $('img.retina').each(function(){
-		    $(this).attr('src', $(this).attr('src').replace('.jpg', '@2x.jpg'));
+		    $(this).attr('width', $(this).width()).attr('height', $(this).height()).attr('src', $(this).attr('src').replace('.jpg', '@2x.jpg'));
 	    });
 	}
 	

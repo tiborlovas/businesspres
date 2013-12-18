@@ -258,6 +258,24 @@ section, footer {
 	text-indent: 1px;
 	text-align: center;
 }
+.midspot i {
+	position: relative;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin-right: 7px;
+	background-color: #ccc;
+	border-radius: 20px;
+	-o-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	font-style: normal;
+	font-family: 'Varela Round', sans-serif;
+	color: #fff;
+	line-height: 40px;
+	text-indent: 1px;
+	text-align: center;
+}
 .bigspot {
 	position: relative;
 }
@@ -301,7 +319,8 @@ section, footer {
 	background-color: $blue;
 }
 .spot i.green,
-.bigspot i.green {
+.bigspot i.green,
+.midspot i.green {
 	background-color: $green;
 }
 .spot i.yellow,
@@ -341,6 +360,10 @@ section, footer {
 	background: url(../images/assets/icon-checkmark.png) center center no-repeat;
 	position: relative;
 	top: 8px;
+}
+.icon-arrow-right {
+	background: url(../images/assets/icon-arrow-right.png) center center no-repeat;
+	position: relative;
 }
 ul.big-padding {
 	margin-bottom: 100px;
@@ -427,6 +450,23 @@ ul.big-padding {
 /* PrintIO */
 .printio {
 	background-image: url(../images/PrintioHeroImage.png);
+}
+
+/* Value Chain Example */
+.value-chain-example .img {
+	width: 100%;
+	height: 97px;
+	margin-bottom: 45px;
+}
+.value-chain-example .whitebox {
+	min-height: 325px;
+	position: relative;
+}
+.value-chain-example .whitebox .midspot {
+	position: absolute;
+	z-index: 10;
+	right: -42px;
+	top: 185px;
 }
 
 /* How We Connect */
