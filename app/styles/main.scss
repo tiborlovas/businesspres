@@ -1,10 +1,11 @@
 $bodytext: #333333;
 $grey: #D9D9D9;
 $lightgrey: #F7F7F7;
-$purple: #FA4B88;
+$purple: #6666A4;
 $blue: #73CEFF;
 $green: #49D6BA;
 $yellow: #FFD969;
+$pink: #FA4B88;
 
 $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
@@ -92,7 +93,7 @@ section, footer {
 	background: #fff;
 	padding: 15px;
 	width: 100%;
-	border-bottom: 1px #D9D9D9 solid;
+	border-bottom: 1px $grey solid;
 }
 .sticky-element {
 	position: fixed;
@@ -225,8 +226,8 @@ section, footer {
 	-webkit-border-radius: 12px;
 	-moz-border-radius: 12px;
 }
-.circle i.purple {
-	border: 4px solid $purple;
+.circle i.pink {
+	border: 4px solid $pink;
 }
 .circle i.blue {
 	border: 4px solid $blue;
@@ -310,9 +311,9 @@ section, footer {
 .whitebox .bigspot > i {
 	top: -5px;
 }
-.spot i.purple,
-.bigspot i.purple {
-	background-color: $purple;
+.spot i.pink,
+.bigspot i.pink {
+	background-color: $pink;
 }
 .spot i.blue,
 .bigspot i.blue {
@@ -343,7 +344,7 @@ section, footer {
 	background-image: url(../images/assets/icon-email.png);
 }
 .bluebox {
-	background: #73CEFF;
+	background: $blue;
 	padding: 40px;
 	color: #fff;
 	font-weight: 300;
@@ -375,7 +376,7 @@ ul.big-padding {
 	-moz-border-radius: 5px;
 }
 .border {
-	border-bottom: 1px #D9D9D9 solid;
+	border-bottom: 1px $grey solid;
 }
 .nospace {
 	margin-bottom: 0!important;
@@ -408,6 +409,53 @@ ul.big-padding {
 }
 .grid {
 	background: url(../images/grid.png) repeat 0 0;
+}
+.text-middle {
+	position: relative;
+}
+.text-middle img {
+	overflow: auto;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.img img {
+	max-width: 100%;
+}
+.barholder {
+	width: 100%;
+	float: left;
+}
+.bar {
+	height: 40px;
+	line-height: 40px;
+	background-color: $grey;
+	border-radius: 20px;
+	-o-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+}
+.bar span {
+	margin: 0 15px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	white-space: nowrap;
+}
+.bar.purple {
+	background-color: $purple;
+}
+.bar.green {
+	background-color: $green;
+}
+.bar.blue {
+	background-color: $blue;
+}
+.bar.pink {
+	background-color: $pink;
 }
 
 /* Main Hero */
@@ -467,6 +515,32 @@ ul.big-padding {
 	z-index: 10;
 	right: -42px;
 	top: 185px;
+}
+
+/* Initial Traction */
+.initial-traction .img:nth-child(1) img {
+	margin-top: 30px;
+}
+.initial-traction .img:nth-child(2) img {
+	margin-top: 30px;
+}
+.initial-traction .img:nth-child(3) img {
+	margin-top: 30px;
+}
+
+/* Market Size */
+.market-size {
+	.bar1,
+	.bar2,
+	.bar3,
+	.bar4 {
+		float: left;
+	}
+}
+.market-size {
+	.bar4 {
+		margin-bottom: 60px;
+	}
 }
 
 /* How We Connect */

@@ -1,8 +1,8 @@
 /* Small devices (mobiles, 480px and up) */
 @media (min-width: 480px) {
-
 	
-
+	
+	
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -70,6 +70,33 @@
 	}
 	.separation-math {
 		display: none;
+	}
+	
+	/* Initial Traction */
+	.initial-traction .img:nth-child(1) img {
+		margin-top: 80px;
+	}
+	.initial-traction .img:nth-child(2) img {
+		margin-top: 0px;
+	}
+	.initial-traction .img:nth-child(3) img {
+		margin-top: 138px;
+	}
+	
+	/* Market Size */
+	.market-size .bargroup1 {
+		text-align: right;
+		.barholder {
+			float: right;
+			text-align: right;
+			.bar1,
+			.bar2,
+			.bar3,
+			.bar4 {
+					float: right;
+					margin-bottom: 0;
+				}
+		}
 	}
 	
 }

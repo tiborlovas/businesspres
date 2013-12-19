@@ -46,7 +46,39 @@ $(function(){
 	  });
 	});
 */
-
+	/* Bar Chart */
+	$('.bar').width('10%');
+	$('.bar span').hide();
+	$('.market-size').waypoint(function(direction) {
+		$('.bar span').show();
+		$('.bar1').animate({
+			width: "28%"
+		});
+		$('.bar2').animate({
+			width: "35%"
+		});
+		$('.bar3').animate({
+			width: "50%"
+		});
+		$('.bar4').animate({
+			width: "70%"
+		});
+		$('.bar5').animate({
+			width: "22%"
+		});
+		$('.bar6').animate({
+			width: "45%"
+		});
+		$('.bar7').animate({
+			width: "60%"
+		});
+		$('.bar8').animate({
+			width: "100%"
+		});
+					
+        }, {offset: $('.market-size').outerHeight()}
+    );
+	
 });
 
 /* Hero autoresize needs to be made by javascript to avoid blink caused by jquery load latency */
