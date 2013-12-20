@@ -26,6 +26,7 @@ body {
     font-weight: 300; /* 300, 400, 700 */
     text-align: left;
     color: $bodytext;
+    overflow-x: hidden;
 }
 h1,h2,h3,h4,h5 {
 	margin: 0;
@@ -73,6 +74,28 @@ hr {
 	border: 0;
 	height: 1px;
 }
+.table > thead > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > th,
+.table > tbody > tr > td {
+	text-align: center;
+	padding: 20px 15px;
+	font-weight: 400;
+	border: none;
+	vertical-align: middle!important;
+}
+.table > thead > tr > th,
+.table > tbody > tr > th {
+	text-align: right;
+	font-weight: 300;
+	white-space: nowrap;
+}
+.table > thead > tr:first-child > th,
+.table > tbody > tr:first-child > th {
+	border-top: 0;
+	font-weight: 300;
+	text-align: center;
+}
 
 /* Common */
 .container {
@@ -101,15 +124,28 @@ section, footer {
 	top: 0;
 	width: 100%;
 }
+.logoholder {
+	padding: 0;
+}
 .onlydesktop {
 	display: none!important;
+}
+.onlymobile {
+	display: inline-block!important;
 }
 .icon-menu-mobile {
 	display: inline-block;
 	width: 20px;
 	height: 15px;
 	background: url(../images/assets/MenuIconMobile.png) center center no-repeat;
-	margin-top: 3px;
+	margin-top: 12px;
+}
+.icon-close-mobile {
+	display: inline-block;
+	width: 20px;
+	height: 15px;
+	background: url(../images/assets/CloseIconMobile.png) center center no-repeat;
+	margin-top: 12px;
 }
 .invisible {
 	visibility: visible;
@@ -118,63 +154,37 @@ section, footer {
 .stuck {
 
 }
+.menu-trigger {
+	cursor: pointer;
+}
 .menu {
-
-}
-.menu > li {
-	display: inline-block;
-	position: relative;
-	margin: 0;
-}
-.menu > li.active a {
-	color: $blue;
-}
-.menu > li a {
-	display: inline-block;
-	padding: 8px 13px 8px;
-	position: relative;
-	z-index: 1;
-}
-.menu > li a,
-.menu > li a:hover {
-	color: $bodytext;
-	text-decoration: none;
-	font-size: 16px;
-}
-.menu > li a:hover {
-	color: $blue;
-}
-.menu > li:hover .submenu {
-	display: block;
-}
-.submenu {
 	display: none;
-	position: absolute;
-	z-index: 0;
-	left: -7px;
-	width: auto;
-	min-width: 100%;
-	padding: 0 0 15px 0;
-	background: #fff;
-	text-align: center;
-	border: 1px $grey solid;
-	border-top: 0;
 	text-align: left;
-}
-.submenu li {
-	margin: 0;
-}
-.submenu li a {
-	display: block;
-	padding: 5px 20px;
-	white-space: nowrap;
-}
-.menu > li:last-child .submenu {
-	left: -70px;
+	overflow-y: scroll;
+	margin-top: 30px;
+	li a,
+	li a:hover {
+		color: $bodytext;
+		text-decoration: none;
+		font-size: 16px;
+	}
+	a:hover {
+		color: $blue;
+	}
+	li.active a {
+		color: $blue;
+	}
+	.submenu {
+		display: block;
+		border: 0px $grey solid;
+	}
+	.submenu li {
+		margin: 0;
+	}
 }
 .logo-holder {
 	background: #fff;
-	width: 300px;
+	max-width: 300px;
 	height: auto;
 	margin: auto;
 	padding: 30px;
@@ -229,6 +239,9 @@ section, footer {
 .circle i.pink {
 	border: 4px solid $pink;
 }
+.circle i.purple {
+	border: 4px solid $purple;
+}
 .circle i.blue {
 	border: 4px solid $blue;
 }
@@ -279,17 +292,18 @@ section, footer {
 }
 .bigspot {
 	position: relative;
+	padding-left: 70px;
 }
 .bigspot ul {
-	line-height: 60px;
-	margin-top: 20px;
+/* 	line-height: 60px; */
 }
 .bigspot ul li {
-	margin-left: 70px;
+/* 	margin-left: 70px; */
 }
 .bigspot > i {
-	position: relative;
-	top: 20px;
+	position: absolute;
+	left: 0px;
+	float: left;
 	display: inline-block;
 	width: 60px;
 	height: 60px;
@@ -306,10 +320,13 @@ section, footer {
 	text-indent: 2px;
 	text-align: center;
 	background-repeat: no-repeat;
-	background-position: center center; 
+	background-position: center center;
+}
+.bigspot p {
+	padding: 20px 0;
 }
 .whitebox .bigspot > i {
-	top: -5px;
+	top: 15px;
 }
 .spot i.pink,
 .bigspot i.pink {
@@ -362,8 +379,29 @@ section, footer {
 	position: relative;
 	top: 8px;
 }
+.icon-check.green {
+	display: inline-block;
+	width: 26px;
+	height: 20px;
+	background: url(../images/assets/icon-checkmark-green.png) center center no-repeat;
+	top: 0;
+}
+.nopadding {
+	padding: 0px!important;
+}
+.icon-cross {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../images/assets/icon-cross.png) center center no-repeat;
+	position: relative;
+}
 .icon-arrow-right {
 	background: url(../images/assets/icon-arrow-right.png) center center no-repeat;
+	position: relative;
+}
+.icon-arrow-bottom {
+	background: url(../images/assets/icon-arrow-bottom.png) center center no-repeat;
 	position: relative;
 }
 ul.big-padding {
@@ -401,11 +439,11 @@ ul.big-padding {
 }
 .whitebox {
 	background: #fff;
-	padding: 35px 15px 25px;
+	padding: 15px;
 }
 .borderbox {
-	padding: 70px 10px 50px;
 	border: 1px $grey solid;
+	border-width: 0px;
 }
 .grid {
 	background: url(../images/grid.png) repeat 0 0;
@@ -424,6 +462,7 @@ ul.big-padding {
 }
 .img img {
 	max-width: 100%;
+	height: auto;
 }
 .barholder {
 	width: 100%;
@@ -509,12 +548,19 @@ ul.big-padding {
 .value-chain-example .whitebox {
 	min-height: 325px;
 	position: relative;
+	margin-bottom: 10px;
 }
 .value-chain-example .whitebox .midspot {
 	position: absolute;
 	z-index: 10;
 	right: -42px;
 	top: 185px;
+	display: none;
+}
+.value-chain-example .whitebox .midspot.onlymobile {
+	right: 40%;
+	bottom: -30px;
+	top: inherit;
 }
 
 /* Initial Traction */
@@ -541,6 +587,12 @@ ul.big-padding {
 	.bar4 {
 		margin-bottom: 60px;
 	}
+}
+
+/* Competition */
+.competition .table > thead > tr > td,
+.competition .table > tbody > tr > td {
+	font-size: 14px;
 }
 
 /* How We Connect */
@@ -589,28 +641,7 @@ ul.big-padding {
 	background-image: url(../images/PrintioHeroImage.png);
 }
 .investment-opportunity .logo-holder {
-	width: 550px;
-}
-
-/* Projected Growth */
-.projected-growth .table tr:first-child th,
-.projected-growth .table tr:first-child td {
-	border-top: 0;
-	font-weight: 300;
-}
-.projected-growth .table th,
-.projected-growth .table td {
-	text-align: center;
-	padding: 25px 15px;
-	font-weight: 400;
-	border-left: 1px rgba($grey, .3) solid;
-	border-top: 1px rgba($grey, .3) solid;
-}
-.projected-growth .table th {
-	text-align: right;
-	font-weight: 300;
-	white-space: nowrap;
-	border-left: 0;
+	max-width: 550px;
 }
 
 /* Appendix */

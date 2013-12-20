@@ -27,27 +27,9 @@ $(function(){
         }, {offset: $('.sticky-element').outerHeight()+1}
     );
     
-    /* Smooth scrolling of links between panels */
-/*
-	var $panels = $('.topbar');
-		
-	$panels.each(function() {
-	  var $panel = $(this);
-	  var hash = '#' + this.id;
-	  $('a[href="' + hash + '"]').click(function(event) {
-		alert('ok');
-	    $scrollElement.stop().animate({
-	      scrollLeft: $panel.offset().left
-	    }, 500, 'swing', function() {
-	      window.location.hash = hash;
-	    });
-	
-	    event.preventDefault();
-	  });
-	});
-*/
 	/* Bar Chart */
 	$('.bar').width('10%');
+	if($(window).width() < "480") $('.bar1 span, .bar5 span').text($('.bar1 span').text().slice(0, 3)+' B');
 	$('.bar span').hide();
 	$('.market-size').waypoint(function(direction) {
 		$('.bar span').show();
@@ -78,6 +60,50 @@ $(function(){
 					
         }, {offset: $('.market-size').outerHeight()}
     );
+    
+    /* Mobile Menu job */
+    $('.menu-trigger').removeAttr('href').click(function(){
+		$('.menu').toggle();
+		$(this+' i').toggleClass('icon-menu-mobile').toggleClass('icon-close-mobile');
+    });
+    
+    /* Pie Chart */
+/*
+    var data = {
+		labels : ["Canvas Wrap"],
+		datasets : [
+			{
+				fillColor : "rgba(220,220,220,0.5)",
+				strokeColor : "rgba(220,220,220,1)",
+				pointColor : "rgba(220,220,220,1)",
+				pointStrokeColor : "#fff",
+				data : [65,59,90,81,56,55,40]
+			}
+		]
+	}
+	var ctx = document.getElementById("pie1").getContext("2d");
+	var myNewChart = new Chart(ctx).PolarArea(data);
+*/
+
+    /* Smooth scrolling of links between panels */
+/*
+	var $panels = $('.topbar');
+		
+	$panels.each(function() {
+	  var $panel = $(this);
+	  var hash = '#' + this.id;
+	  $('a[href="' + hash + '"]').click(function(event) {
+		alert('ok');
+	    $scrollElement.stop().animate({
+	      scrollLeft: $panel.offset().left
+	    }, 500, 'swing', function() {
+	      window.location.hash = hash;
+	    });
+	
+	    event.preventDefault();
+	  });
+	});
+*/
 	
 });
 
