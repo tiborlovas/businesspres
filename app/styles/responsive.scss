@@ -1,7 +1,10 @@
 /* Small devices (mobiles, 480px and up) */
 @media (min-width: 480px) {
 	
-	
+	/* Competition */
+	.pinkbox {
+		bottom: 0px;
+	}
 	
 }
 
@@ -40,6 +43,7 @@
 		overflow-y: inherit;
 		text-align: right;
 		margin-top: 0px;
+		height: auto;
 	}
 	.menu > li {
 		display: inline-block;
@@ -51,6 +55,10 @@
 		padding: 8px 13px 8px;
 		position: relative;
 		z-index: 1;
+		font-weight: 300;
+	}
+	.menu > li a:hover {
+		font-weight: 300;
 	}
 	.menu > li:hover .submenu {
 		display: block;
@@ -117,6 +125,9 @@
 		padding: 70px 10px 50px;
 		border-width: 1px;
 	}
+	.text-left-mobile {
+		text-align: right;
+	}
 	
 	/* Initial Traction */
 	.initial-traction .img:nth-child(1) img {
@@ -151,6 +162,14 @@
 	}
 	.value-chain-example .whitebox .midspot {
 		display: inline-block;
+	}
+	
+	/* iOS and Android Apps */
+	.btn-appstore {
+		float: right;
+	}
+	.btn-googleplay {
+		float: left;
 	}
 		
 }

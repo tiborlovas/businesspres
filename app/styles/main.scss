@@ -160,6 +160,8 @@ section, footer {
 .menu {
 	display: none;
 	text-align: left;
+	width: 100%;
+	height: 400px;
 	overflow-y: scroll;
 	margin-top: 30px;
 	li a,
@@ -167,6 +169,7 @@ section, footer {
 		color: $bodytext;
 		text-decoration: none;
 		font-size: 16px;
+		font-weight: 700;
 	}
 	a:hover {
 		color: $blue;
@@ -180,6 +183,9 @@ section, footer {
 	}
 	.submenu li {
 		margin: 0;
+	}
+	.submenu li a {
+		font-weight: 300;
 	}
 }
 .logo-holder {
@@ -467,6 +473,16 @@ ul.big-padding {
 .barholder {
 	width: 100%;
 	float: left;
+	position: relative;
+}
+.barholder .label {
+	display: inline-block;
+	width: 100%;
+	margin-top: 10px;
+	font-weight: 300;
+	font-size: 100%;
+	color: $bodytext;
+	text-align: inherit;
 }
 .bar {
 	height: 40px;
@@ -476,6 +492,7 @@ ul.big-padding {
 	-o-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
+	overflow: hidden;
 }
 .bar span {
 	margin: 0 15px;
@@ -495,6 +512,9 @@ ul.big-padding {
 }
 .bar.pink {
 	background-color: $pink;
+}
+.text-left-mobile {
+	text-align: left;
 }
 
 /* Main Hero */
@@ -594,6 +614,24 @@ ul.big-padding {
 .competition .table > tbody > tr > td {
 	font-size: 14px;
 }
+.competition .bar4 {
+	float: left;
+}
+.pinkline {
+	width: 30px;
+	height: 2px;
+	background: $pink;
+	float: left;
+	margin-top: 19px;
+}
+.pinkbox {
+	background-color: $pink;
+	color: #fff;
+	padding: 7px;
+	float: left;
+	position: relative;
+	bottom: 20px;
+}
 
 /* How We Connect */
 .img-devices {
@@ -619,6 +657,11 @@ ul.big-padding {
 	background: url(../images/assets/map.png) center 240px no-repeat;
 }
 
+/* Sales Process */
+.sales-process .img {
+	text-align: right;
+}
+
 /* HelloPics */
 .hellopics {
 	background-image: url(../images/PrintioHeroImage.png);
@@ -631,6 +674,7 @@ ul.big-padding {
 	width: 185px;
 	height: 54px;
 	background: url("../images/assets/btn-appstore.png") no-repeat;
+	float: none;
 }
 .btn-googleplay {
 	background: url("../images/assets/btn-googleplay.png") no-repeat;
@@ -642,6 +686,16 @@ ul.big-padding {
 }
 .investment-opportunity .logo-holder {
 	max-width: 550px;
+}
+
+/* Early Traction */
+.early-traction .subtitle {
+	font-size: 17px;
+}
+
+/* Current Team */
+.current-team p {
+	white-space: nowrap;
 }
 
 /* Appendix */

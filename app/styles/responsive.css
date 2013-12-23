@@ -1,0 +1,239 @@
+/* Small devices (mobiles, 480px and up) */
+@media (min-width: 480px) {
+  /* Competition */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\000035}}
+  .pinkbox {
+    bottom: 0px;
+  }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* General */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\0000315}}
+  section, footer {
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\0000319}}
+  h2 {
+    margin-bottom: 100px;
+  }
+
+  /* Common */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\0000324}}
+  .container {
+    padding: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\0000327}}
+  .onlymobile {
+    display: none !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\0000330}}
+  .onlydesktop {
+    display: inline-block !important;
+  }
+
+  /*
+  	.sticky-element {
+  		display: block;
+  	}
+  	.sticky-element-menu {
+  		display: none;
+  	}
+  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\0000341}}
+  .menu {
+    display: block;
+    overflow-y: inherit;
+    text-align: right;
+    margin-top: 0px;
+    height: auto;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\0000348}}
+  .menu > li {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\0000353}}
+  .menu > li a {
+    display: inline-block;
+    padding: 8px 13px 8px;
+    position: relative;
+    z-index: 1;
+    font-weight: 300;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\0000360}}
+  .menu > li a:hover {
+    font-weight: 300;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\0000363}}
+  .menu > li:hover .submenu {
+    display: block;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\0000366}}
+  .menu .submenu {
+    display: none;
+    position: absolute;
+    z-index: 0;
+    left: -7px;
+    width: auto;
+    min-width: 100%;
+    padding: 0 0 15px 0;
+    background: #fff;
+    text-align: center;
+    border-width: 1px;
+    border-top: 0;
+    text-align: left;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\0000380}}
+  .menu .submenu li a {
+    display: block;
+    padding: 5px 20px;
+    white-space: nowrap;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\0000385}}
+  .menu > li:last-child .submenu {
+    left: -70px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\0000388}}
+  .hero {
+    padding: 180px 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\0000391}}
+  .logo {
+    width: 313px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\0000394}}
+  .huge {
+    font-size: 40px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\0000397}}
+  .subtitle {
+    font-size: 20px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\00003100}}
+  .main .herobox {
+    padding-top: 25px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\00003103}}
+  .minispace {
+    margin-bottom: 10px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\00003106}}
+  .smallspace {
+    margin-bottom: 30px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\00003109}}
+  .midspace {
+    margin-bottom: 60px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\00003112}}
+  .bigspace {
+    margin-bottom: 100px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\00003115}}
+  .hugespace {
+    margin-bottom: 130px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\00003118}}
+  .separation-lines {
+    display: block;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\00003121}}
+  .separation-math {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\00003124}}
+  .borderbox {
+    padding: 70px 10px 50px;
+    border-width: 1px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\00003128}}
+  .text-left-mobile {
+    text-align: right;
+  }
+
+  /* Initial Traction */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\00003133}}
+  .initial-traction .img:nth-child(1) img {
+    margin-top: 80px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\00003136}}
+  .initial-traction .img:nth-child(2) img {
+    margin-top: 0px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\00003139}}
+  .initial-traction .img:nth-child(3) img {
+    margin-top: 138px;
+  }
+
+  /* Market Size */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\00003144}}
+  .market-size .bargroup1 {
+    text-align: right;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\00003146}}
+  .market-size .bargroup1 .barholder {
+    float: right;
+    text-align: right;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\00003152}}
+  .market-size .bargroup1 .barholder .bar1,
+  .market-size .bargroup1 .barholder .bar2,
+  .market-size .bargroup1 .barholder .bar3,
+  .market-size .bargroup1 .barholder .bar4 {
+    float: right;
+    margin-bottom: 0;
+  }
+
+  /* Value Chain Example */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\00003160}}
+  .value-chain-example .whitebox {
+    margin-bottom: 0px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\00003163}}
+  .value-chain-example .whitebox .midspot {
+    display: inline-block;
+  }
+
+  /* iOS and Android Apps */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\00003168}}
+  .btn-appstore {
+    float: right;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/responsive\.scss}line{font-family:\00003171}}
+  .btn-googleplay {
+    float: left;
+  }
+}
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */

@@ -29,42 +29,66 @@ $(function(){
     
 	/* Bar Chart */
 	$('.bar').width('10%');
-	if($(window).width() < "480") $('.bar1 span, .bar5 span').text($('.bar1 span').text().slice(0, 3)+' B');
-	$('.bar span').hide();
+	
+	/* Market Size Bars */
+	if($(window).width() <= "768") $('.market-size .bar1 span, .market-size .bar5 span').text($('.market-size .bar1 span').text().slice(0, 3)+' B');
+	$('.market-size .bar span').hide();
 	$('.market-size').waypoint(function(direction) {
-		$('.bar span').show();
-		$('.bar1').animate({
+		$('.market-size .bar span').show();
+		$('.market-size .bar1').animate({
 			width: "28%"
 		});
-		$('.bar2').animate({
+		$('.market-size .bar2').animate({
 			width: "35%"
 		});
-		$('.bar3').animate({
+		$('.market-size .bar3').animate({
 			width: "50%"
 		});
-		$('.bar4').animate({
+		$('.market-size .bar4').animate({
 			width: "70%"
 		});
-		$('.bar5').animate({
+		$('.market-size .bar5').animate({
 			width: "22%"
 		});
-		$('.bar6').animate({
+		$('.market-size .bar6').animate({
 			width: "45%"
 		});
-		$('.bar7').animate({
+		$('.market-size .bar7').animate({
 			width: "60%"
 		});
-		$('.bar8').animate({
+		$('.market-size .bar8').animate({
 			width: "100%"
 		});
 					
-        }, {offset: $('.market-size').outerHeight()}
-    );
+    });
+    
+    /* Competition Bars */
+    $('.competition .barholder').waypoint(function(direction) {
+		$('.competition .bar span').show();
+		$('.competition .bar1').animate({
+			width: "90%"
+		});
+		$('.competition .bar2').animate({
+			width: "85%"
+		});
+		$('.competition .bar3').animate({
+			width: "35%"
+		});
+		$('.competition .bar4').animate({
+			width: "25%"
+		});
+					
+        }, {offset: 200
+       
+        });
     
     /* Mobile Menu job */
     $('.menu-trigger').removeAttr('href').click(function(){
 		$('.menu').toggle();
-		$(this+' i').toggleClass('icon-menu-mobile').toggleClass('icon-close-mobile');
+		$('.menu-trigger i').toggleClass('icon-menu-mobile').toggleClass('icon-close-mobile');
+		$('.menu li a').click(function(){
+			$('.menu-trigger').click();
+	    });
     });
     
     /* Pie Chart */

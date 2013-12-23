@@ -10,10 +10,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css(.tmp) styles/main.css -->
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    	<!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+        <!-- build:css(.tmp) styles/responsive.css -->
         <link rel="stylesheet" href="styles/responsive.css">
         <!-- endbuild -->
     </head>
@@ -46,15 +48,15 @@
 		
 		<div class="sticky-element invisible">
 			<div class="sticky-wrapper">
-				<nav class="topbar sticky clearfix">
+				<nav class="topbar sticky">
 					<div class="">
 						<div class="col-xs-2 logoholder">
 							<a href="#"><img src="images/BCLogoTopmenu.png" alt="" /></a>
 						</div>
-						<div class="col-xs-10 onlymobile text-right"><a class="menu-trigger" href="#"><i class="icon-menu-mobile"></i></a></div>
+						<div class="col-xs-10 onlymobile text-right clearfix"><a class="menu-trigger" href="#"><i class="icon-menu-mobile"></i></a></div>
 					</div>
 					<div class="text-right clearfix">
-						<ul class="menu nospace">
+						<ul class="menu nospace clearfix">
 							<li class=""><a href="#printio">PrintIO</a>
 								<ul class="submenu">
 									<li><a href="#executive-summary">Executive Summary</a></li>
@@ -416,38 +418,38 @@ the best manufacturer.<div class="midspot"><i class="green icon-arrow-right"></i
 			        <div class="col-sm-5 col-sm-offset-1 bargroup1">
 			        	<h3>US Market: $62 Billion</h3>
 			        	<div class="barholder clearfix">
-			        		<div>Stationary</div>
+			        		<div class="label">Stationary</div>
 			        		<div class="bar bar1 purple"><span>$10 BILLION</span></div>
 			        	</div>
 			        	<div class="barholder clearfix">
-			        		<div>Direct Mail</div>
+			        		<div class="label">Direct Mail</div>
 			        		<div class="bar bar2 green"><span>$13 BILLION</span></div>
 			        	</div>
 			        	<div class="barholder clearfix">
-			        		<div>Customized Apparel</div>
+			        		<div class="label">Customized Apparel</div>
 			        		<div class="bar bar3 blue"><span>$19 BILLION</span></div>
 			        	</div>
 			        	<div class="barholder clearfix">
-			        		<div>Wall Decor</div>
+			        		<div class="label">Wall Decor</div>
 			        		<div class="bar bar4 pink"><span>$20 BILLION</span></div>
 			        	</div>
 			        </div>
 			        <div class="col-sm-6 bargroup2">
 			        	<h3>US Market: $62 Billion</h3>
 			        	<div class="barholder clearfix">
-			        		<div>Consumer Photo</div>
+			        		<div class="label">Consumer Photo</div>
 			        		<div class="bar bar5 purple"><span>$10 BILLION</span></div>
 			        	</div>
 			        	<div class="barholder clearfix">
-			        		<div>Mobile Accessories</div>
+			        		<div class="label">Mobile Accessories</div>
 			        		<div class="bar bar6 green"><span>$36 BILLION</span></div>
 			        	</div>
 			        	<div class="barholder clearfix">
-			        		<div>Branded Merchandise</div>
+			        		<div class="label">Branded Merchandise</div>
 			        		<div class="bar bar7 blue"><span>$170 BILLION</span></div>
 			        	</div>
 			        	<div class="barholder clearfix">
-			        		<div>Business Printing</div>
+			        		<div class="label">Business Printing</div>
 			        		<div class="bar bar8 pink"><span>$500 BILLION</span></div>
 			        	</div>
 			        </div>
@@ -555,8 +557,30 @@ the best manufacturer.<div class="midspot"><i class="green icon-arrow-right"></i
 			        	<img src="images/CanvasWrapPieChart.png" alt="" />
 	        		</div>
 	        		<div class="onlymobile hugespace"></div>
-	        		<div class="col-sm-6 text-center img">
-			        	<img src="images/CompetitionGraphChart.png" alt="" />
+	        		<div class="col-sm-6 text-left img">
+			        	<div class="barholder clearfix">
+			        		<div class="label">Canvas On Demand</div>
+			        		<div class="bar bar1 purple"><span>$88</span></div>
+			        	</div>
+			        	<div class="barholder clearfix">
+			        		<div class="label">Canvas Pop</div>
+			        		<div class="bar bar2 green"><span>$79</span></div>
+			        	</div>
+			        	<div class="barholder clearfix">
+			        		<div class="label">Cost Co.</div>
+			        		<div class="bar bar3 blue"><span>$34.99</span></div>
+			        	</div>
+			        	<div class="barholder clearfix">
+			        		<div class="label">PrintIO</div>
+			        		<div class="bar bar4 pink"><span>$19.99</span></div>
+			        			<div class="pinkline"></div>
+				        		<div class="pinkbox rounded">
+					        		Illustrative Margin Breakout<br>
+					        		40% Vendor<br>
+					        		40% Partner<br>
+					        		20% Breakout Commerce
+					        	</div>
+			        	</div>
 	        		</div>
 	        	</div>
 	    	</article>
@@ -605,7 +629,7 @@ the best manufacturer.<div class="midspot"><i class="green icon-arrow-right"></i
 	    <section class="early-traction" id="early-traction">
 	    	<article class="container">
 		        <h2 class="bigspace">Early Traction from Soft Launch</h2>
-				<div class="row nospace">
+				<div class="container row nospace">
 					<div class="col-sm-offset-3">
 						<ul class="midspace">
 							<li class="bigspot"><i class="yellow icon-dollar"></i><p class="nospace"><b class="subtitle">Over $10,000 Worth of Orders Placed in First 2 Weeks</b></p>
@@ -736,14 +760,13 @@ WANT!</p>
 		    <article class="container">
 		    	<h2 class="hugespace">Projected Growth: Bottom-Up Approach</h2>
 		    	<div class="row bigspace">
-		    		<div class="col-sm-4 col-sm-offset-2 text-right">
+		    		<div class="col-sm-6 text-left-mobile">
 		    			<p class="minispace">Average Revenue per Item with Shipping</p>
 		    			<p class="huge"><b>$15</b></p>
 			    		<p class="minispace">Average Items Sold Per Partner Annually</p>
 		    			<p class="huge"><b>2,000</b></p>
 		    			<p class="minispace">Average Revenue Per Partner</p>
 		    			<p class="huge"><b>$30,000</b></p>
-		    			</p>
 		    		</div>
 		    		<div class="col-sm-6 text-left">
 		    			<p class="minispace">Total Potential Partners</p>
@@ -776,7 +799,7 @@ WANT!</p>
 		    <article class="container">
 		    	<h2 class="hugespace">Current Team</h2>
 		    	<div class="row">
-		    		<div class="col-sm-4 col-sm-offset-2 text-left">
+		    		<div class="col-xs-8 col-sm-6 col-sm-offset-2 text-left">
 		    			<p>CEO<br>
 		    			CTO</p>
 		    			<p>Head of Biz Dev<br>
@@ -787,7 +810,7 @@ WANT!</p>
 		    			Integration Developer</p>
 		    			<p class="nospace">Total Employee Index</p>
 		    		</div>
-		    		<div class="col-sm-4 text-right">
+		    		<div class="col-xs-4 col-sm-2 text-right">
 		    			<p>$0<br>
 		    			$110.000</p>
 		    			<p>$0<br>
@@ -857,6 +880,7 @@ WANT!</p>
 			        	<h3 class="circle smallspace"><i class="green"></i>Consumer Items</h3>
 			        	<p class="nospace">Acrylic Blocks, Acrylic Prints, Acrylic Trays, Canvas Wraps, Coaster Cork, Coaster Stone, Deluxe Minibook, Fleece Blankets, Framed Prints, Giclee Art Prints, Hoodies, Infant Clothing, Magnet, Magnetgram, Metal Magnet, Metal prints, Minibook, Mousepads, Mugs, Notebooks, Ottomon, Pet Bowls, Pet Clothing, Phone Cases, Photobooks, Photo Albums, Playing Cards, Posters, Prints, Shower Curtains, Stickerbook, Stickers, Tablet Cases, Everything Bag, Thickprints, Throw Pillows, Tinybook, Toddler Clothing, T-Shirts, Wave Books, Wood Prints, Woven Blankets</p>
 			        </div>
+			        <div class="midspace onlymobile"></div>
 			        <div class="col-sm-6 text-left">
 			        	<h3 class="circle smallspace"><i class="pink"></i>Business Products</h3>
 			        	<p class="nospace">Checks, Documents, Business Cards, Postcards, Signs, Banners, Address Labels, Brochures, Flyers, Letterhead, Envelopes, Presentation Folders, Posters, Window Decals, Automobile Wraps, Magnetic Business Cards, Car Door Magnets, Letterhead, invitations, Sticky Notes, Notepads, Pens, Lawn Signs, Notebooks</p>
@@ -874,11 +898,12 @@ WANT!</p>
 		        		<h3 class="circle"><i class="yellow"></i>Web API</h3>
 		        		<p class="midspace">Direct Access to International Manufacturers, Full developer flexibility, Client libraies for easy implementation</p>
 		        	</div>
-		        	<div class="col-sm-4 text-center">
+		        	<div class="col-sm-4 text-center text-left-mobile">
 		        		<h3 class="circle"><i class="yellow"></i>WEB Widget</h3>
 		        		<p class="smallspace">Seamlessly integrates into anyexisting website</p>
 		        	</div>
-		        	<div class="col-sm-4 text-right">
+		        	<div class="onlymobile minispace"></div>
+		        	<div class="col-sm-4 text-right text-left-mobile">
 		        		<h3 class="circle"><i class="green"></i>Mobile SDKs</h3>
 		        		<p class="midspace">White Labeled UI (user interface)<br>
 		        		iOS, Android & WP7 SDKs<br>
@@ -890,23 +915,25 @@ WANT!</p>
 White Labeled Interface
 iOS & Android native versions</p>
 		        	</div>
-		        	<div class="col-sm-4 text-center">
+		        	<div class="col-sm-4 text-center text-left-mobile">
 		        		<p class="midspace"><img class="img-devices" src="images/HowWeConnect.png" alt="" /></p>
 		        	</div>
-		        	<div class="col-sm-4 text-right">
+		        	<div class="col-sm-4 text-right text-left-mobile">
 		        		<h3 class="circle"><i class="blue"></i>POS Dashboard</h3>
 		        		<p class="midspace">Easy Product Ordering<br>
 		        		Quick Checkout</p>
 		        	</div>
 		        </div>
 		        <div class="row">
-		        	<div class="col-xs-4 text-center">
+		        	<div class="col-sm-4 text-center img">
 		        		<img src="images/WidgetPreview.png" alt="" />
 		        	</div>
-		        	<div class="col-xs-4 text-center">
+		        	<div class="onlymobile smallspace"></div>
+		        	<div class="col-sm-4 text-center img">
 		        		<img src="images/WebPreview.png" alt="" />
 		        	</div>
-		        	<div class="col-xs-4 text-center">
+		        	<div class="onlymobile smallspace"></div>
+		        	<div class="col-sm-4 text-center img">
 		        		<img src="images/AppPreview.png" alt="" />
 		        	</div>
 		        </div>
@@ -990,27 +1017,28 @@ Consistency</h3>
 		        <p class="subtitle hugespace text-center">Efficiently Managing a Large Lead Funnel.</p>
 		        <div class="row nospace">
 		        	<div class="container">
-			        <div class="col-sm-5">
-			        	<div class="row smallspace">
-				        	<h3 class="circle text-left"><i class="pink"></i>Fill the Funnel</h3>
-				            <p>Leads are generated through Alexa rankings, Internet Retailer, App Stores and Web-Crawlers.</p>
-			        	</div>
-			        	<div class="row smallspace">
-				            <h3 class="circle text-left"><i class="green"></i>Oranizing Leads</h3>
-				            <p>We categorize leads into buckets with an outsourced team. Our buckets help determine their needs are and that messaging resonates with them.</p>
-				            <p>Our outsource team then finds contact details, using best practices developed at growth equity firms and inputs them into our CRM.</p>
-				            <p>Our internal sales team reaches out to pitch our services and a partnership.</p>
-				            <p>Leads are then passed to our onboarding customer service team - who send product samples and complete onboarding.</p>
-			        	</div>
-			        	<div class="row nospace">
-				            <h3 class="circle text-left"><i class="yellow"></i>Education & Speedy Integration</h3>
-				            <p class="nospace">We offer easy to use video and written tutorials on our technology, printing methodologies, logistics and other related topics to smooth onboarding into a self service process.</p>
-			        	</div>
-			        </div>
-			        </div>
-			        <div class="col-sm-6 text-right">
-				        <img src="images/SalesProcess.png" alt="" />
-			        </div>
+				        <div class="col-sm-5">
+				        	<div class="row smallspace">
+					        	<h3 class="circle text-left"><i class="pink"></i>Fill the Funnel</h3>
+					            <p>Leads are generated through Alexa rankings, Internet Retailer, App Stores and Web-Crawlers.</p>
+				        	</div>
+				        	<div class="row smallspace">
+					            <h3 class="circle text-left"><i class="green"></i>Oranizing Leads</h3>
+					            <p>We categorize leads into buckets with an outsourced team. Our buckets help determine their needs are and that messaging resonates with them.</p>
+					            <p>Our outsource team then finds contact details, using best practices developed at growth equity firms and inputs them into our CRM.</p>
+					            <p>Our internal sales team reaches out to pitch our services and a partnership.</p>
+					            <p>Leads are then passed to our onboarding customer service team - who send product samples and complete onboarding.</p>
+				        	</div>
+				        	<div class="row nospace">
+					            <h3 class="circle text-left"><i class="yellow"></i>Education & Speedy Integration</h3>
+					            <p class="nospace">We offer easy to use video and written tutorials on our technology, printing methodologies, logistics and other related topics to smooth onboarding into a self service process.</p>
+				        	</div>
+				        </div>
+				        <div class="onlymobile midspace"></div>
+				        <div class="col-sm-6 text-center img">
+					        <img src="images/SalesProcess.png" alt="" />
+				        </div>
+		        	</div>
 		        </div>
 	    	</article>
 	    </section>
@@ -1018,7 +1046,7 @@ Consistency</h3>
 	    <section class="business-strategy greybg" id="business-strategy">
 	    	<article class="container">
 		        <h2>Business Strategy</h2>
-		        <div class="row nospace">
+		        <div class="row nospace container">
 			        <div class="col-sm-6">
 			        	<div class="row nospace">
 				        	<h3 class="circle text-left"><i class="yellow"></i>Barriers to Entry: Engineering<br>an Unfair Advantage</h3>
@@ -1027,6 +1055,7 @@ Consistency</h3>
 				            <p class="nospace"><b>Partner Exclusivity</b><br>Exclusivity contracts with reseller partners such as our current partner Instacanv.as (Twenty20).</p>
 			        	</div>
 			        </div>
+			        <div class="onlymobile midspace"></div>
 			        <div class="col-sm-6">
 			        	<div class="row nospace">
 				        	<h3 class="circle text-left"><i class="green"></i>Ahead of the Curve: Accelerating First<br>Mover Advantage</h3>
@@ -1045,6 +1074,7 @@ Consistency</h3>
 			        <div class="col-sm-6 text-right img">
 				        <img src="images/HomePage.png" alt="" />
 			        </div>
+			        <div class="onlymobile midspace"></div>
 			        <div class="col-sm-6 text-left img">
 				        <img src="images/ProductsPage.png" alt="" />
 			        </div>
@@ -1058,14 +1088,14 @@ Consistency</h3>
 		        <p class="subtitle text-center smallspace">The leading printing app for iOS and Android.<br>
 We make mobile printing stylish and easy.</p>
 				<div class="row midspace">
-					<div class="col-xs-6 text-right">
+					<div class="col-sm-6 text-center clearfix">
 						<a class="btn-appstore" href=""></a>
 					</div>
-					<div class="col-xs-6 text-left">
+					<div class="col-sm-6 text-center clearfix">
 						<a class="btn-googleplay" href=""></a>
 					</div>
 				</div>
-		        <div class="row text-center">
+		        <div class="row text-center img">
 			        <img src="images/AppScreens.png" alt="" />
 		        </div>
 	        </article>
@@ -1084,6 +1114,7 @@ We make mobile printing stylish and easy.</p>
 		        		<p>Using our custom-built & user-friendly admin panel, Friends automatically email their contacts, post to their social media accounts, and set up an automatic MLM routine.</p>
 		        		<h4 class="spot"><i class="pink">3</i>Information Capture</h4>
 		        		<p class="nospace">Hellopics captures email addresses from their address-book and captures their friend's birthdays and related info from Open Graph.</p>
+		        		<div class="onlymobile smallspace"></div>
 		        	</div>
 		        	<div class="col-sm-6">
 		        		<h4 class="spot"><i class="pink">4</i>PrintIO API Integration</h4>
@@ -1120,7 +1151,7 @@ We make mobile printing stylish and easy.</p>
 		        </div>
 		        <div class="border bigspace"></div>
 		        <h3 class="bigspace text-center">MLM Payout Illustration</h3>
-		        <p class="text-center"><img src="images/MLMIllustration.png" alt="" /></p>
+		        <p class="text-center img"><img src="images/MLMIllustration.png" alt="" /></p>
 	    	</article>
 	    </section>
 	    
