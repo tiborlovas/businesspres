@@ -8325,8 +8325,17 @@ ul.big-padding {
   text-align: left;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003519}}
+.printbutton {
+  position: fixed;
+  top: inherit;
+  left: inherit;
+  right: 20px;
+  bottom: 20px;
+}
+
 /* Main Hero */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003521}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003528}}
 .main {
   background: #2B3439;
   /* 	padding: 300px 0; */
@@ -8335,39 +8344,39 @@ ul.big-padding {
   height: 1000px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003528}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003535}}
 .holder {
   max-width: 1000px;
   margin: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003532}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003539}}
 .logo {
   width: 200px;
   margin-left: auto;
   margin-right: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003537}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003544}}
 .logo img {
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003540}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003547}}
 .main .herobox {
   border-top: 1px rgba(255, 255, 255, 0.2) solid;
   border-bottom: 1px rgba(255, 255, 255, 0.2) solid;
   padding-top: 13px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003546}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003553}}
 .main h1,
 .main h2 {
   text-transform: uppercase;
   white-space: nowrap;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003550}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003557}}
 .main .container {
   color: #fff;
   display: table-cell;
@@ -8376,27 +8385,27 @@ ul.big-padding {
 }
 
 /* PrintIO */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003558}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003565}}
 .printio {
   background-image: url(../images/PrintioHeroImage.png);
 }
 
 /* Value Chain Example */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003563}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003570}}
 .value-chain-example .img {
   width: 100%;
   height: 97px;
   margin-bottom: 45px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003568}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003575}}
 .value-chain-example .whitebox {
   min-height: 325px;
   position: relative;
   margin-bottom: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003573}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003580}}
 .value-chain-example .whitebox .midspot {
   position: absolute;
   z-index: 10;
@@ -8405,7 +8414,7 @@ ul.big-padding {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003580}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003587}}
 .value-chain-example .whitebox .midspot.onlymobile {
   right: 40%;
   bottom: -30px;
@@ -8413,23 +8422,23 @@ ul.big-padding {
 }
 
 /* Initial Traction */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003587}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003594}}
 .initial-traction .img:nth-child(1) img {
   margin-top: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003590}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003597}}
 .initial-traction .img:nth-child(2) img {
   margin-top: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003593}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003600}}
 .initial-traction .img:nth-child(3) img {
   margin-top: 30px;
 }
 
 /* Market Size */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003602}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003609}}
 .market-size .bar1,
 .market-size .bar2,
 .market-size .bar3,
@@ -8437,24 +8446,24 @@ ul.big-padding {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003607}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003614}}
 .market-size .bar4 {
   margin-bottom: 60px;
 }
 
 /* Competition */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003614}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003621}}
 .competition .table > thead > tr > td,
 .competition .table > tbody > tr > td {
   font-size: 14px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003617}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003624}}
 .competition .bar4 {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003620}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003627}}
 .pinkline {
   width: 30px;
   height: 2px;
@@ -8463,7 +8472,7 @@ ul.big-padding {
   margin-top: 19px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003627}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003634}}
 .pinkbox {
   background-color: #fa4b88;
   color: #fff;
@@ -8474,52 +8483,52 @@ ul.big-padding {
 }
 
 /* How We Connect */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003637}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003644}}
 .img-devices {
   margin-top: -40px;
 }
 
 /* Scalable Model */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003642}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003649}}
 .img-order-submission-engine {
   margin-top: 70px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003645}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003652}}
 .img-image-processing-engine {
   margin-top: 60px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003648}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003655}}
 .img-vendor-gateway {
   margin-top: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003651}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003658}}
 .img-accouting-automation-engine {
   margin-top: 60px;
 }
 
 /* Vendor Network */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003656}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003663}}
 .vendor-network {
   background: url(../images/assets/map.png) center 240px no-repeat;
 }
 
 /* Sales Process */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003661}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003668}}
 .sales-process .img {
   text-align: right;
 }
 
 /* HelloPics */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003666}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003673}}
 .hellopics {
   background-image: url(../images/PrintioHeroImage.png);
 }
 
 /* iOS and Android Apps */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003672}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003679}}
 .btn-appstore,
 .btn-googleplay {
   display: inline-block;
@@ -8529,42 +8538,42 @@ ul.big-padding {
   float: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003679}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003686}}
 .btn-googleplay {
   background: url("../images/assets/btn-googleplay.png") no-repeat;
 }
 
 /* Investment Opportunity */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003684}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003691}}
 .investment-opportunity {
   background-image: url(../images/PrintioHeroImage.png);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003687}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003694}}
 .investment-opportunity .logo-holder {
   max-width: 550px;
 }
 
 /* Early Traction */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003692}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003699}}
 .early-traction .subtitle {
   font-size: 17px;
 }
 
 /* Current Team */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003697}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003704}}
 .current-team p {
   white-space: nowrap;
 }
 
 /* Appendix */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003702}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003709}}
 .appendix {
   background-image: url(../images/PrintioHeroImage.png);
 }
 
 /* Footer */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003708}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tiborlovas\/Sites\/breakoutbusinesspres-git\/app\/styles\/main\.scss}line{font-family:\00003715}}
 footer p {
   margin: 0;
 }

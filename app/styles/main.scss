@@ -516,6 +516,13 @@ ul.big-padding {
 .text-left-mobile {
 	text-align: left;
 }
+.printbutton {
+	position: fixed;
+	top: inherit;
+	left: inherit;
+	right: 20px;
+	bottom: 20px;
+}
 
 /* Main Hero */
 .main {
