@@ -125,8 +125,11 @@
 		padding: 70px 10px 50px;
 		border-width: 1px;
 	}
-	.text-left-mobile {
+	.text-right.text-left-mobile {
 		text-align: right;
+	}
+	.text-center.text-left-mobile {
+		text-align: center;
 	}
 	
 	/* Initial Traction */

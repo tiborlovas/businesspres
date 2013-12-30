@@ -260,6 +260,55 @@ section, footer {
 .circle.center i {
 	top: 12px;
 }
+.circle [class^="p-"],
+.circle [class*="p-"],
+.circle .bright {
+	position: absolute;
+	top: 34%;
+	left: 25%;
+}
+.circle .p-100 {
+	position: absolute;
+}
+.circle .p-50 {
+	clip:rect(0px,24px,24px,12px);
+}
+.circle .p-15 {
+	clip:rect(0px,24px,24px,12px);
+	-webkit-transform:rotate(22.5deg);
+	-moz-transform:rotate(22.5deg);
+	-o-transform:rotate(22.5deg);
+	transform:rotate(22.5deg);
+}
+.circle .p-20 {
+	clip:rect(0px,24px,24px,12px);
+	-webkit-transform:rotate(55deg);
+	-moz-transform:rotate(55deg);
+	-o-transform:rotate(55deg);
+	transform:rotate(55deg);
+}
+.circle .p-35 {
+	clip:rect(0px,24px,24px,12px);
+	-webkit-transform:rotate(115deg);
+	-moz-transform:rotate(115deg);
+	-o-transform:rotate(115deg);
+	transform:rotate(115deg);
+}
+.circle .p-45 {
+	clip:rect(0px,24px,24px,12px);
+	-webkit-transform:rotate(135deg);
+	-moz-transform:rotate(135deg);
+	-o-transform:rotate(135deg);
+	transform:rotate(135deg);
+}
+.circle .bright {
+	opacity: .2;
+}
+.circle .pie-wrapper{
+	position: relative;
+	top: -20px;
+	left: -15px;
+}
 .spot i {
 	position: relative;
 	display: inline-block;
