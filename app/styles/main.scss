@@ -267,9 +267,6 @@ section, footer {
 	top: 34%;
 	left: 25%;
 }
-.circle .p-100 {
-	position: absolute;
-}
 .circle .p-50 {
 	clip:rect(0px,24px,24px,12px);
 }
@@ -434,7 +431,7 @@ section, footer {
 	position: relative;
 	top: 8px;
 }
-.icon-check.green {
+table .icon-check.green {
 	display: inline-block;
 	width: 26px;
 	height: 20px;
@@ -669,6 +666,7 @@ ul.big-padding {
 .competition .table > thead > tr > td,
 .competition .table > tbody > tr > td {
 	font-size: 14px;
+	position: relative;
 }
 .competition .bar4 {
 	float: left;
